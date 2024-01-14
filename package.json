@@ -1,14 +1,9 @@
 {
   "name": "booi-reactkit",
   "version": "1.0.0",
-  "description": "react helpers",
-  "main": "dist/esm/index.js",
-  "types": "dist/index.d.ts",
-  "module": "dist/esm/index.js",
-  "type": "module",
+  "description": "react kit from booi",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "tsup index.ts --format esm --minify --dts --clean --legacy-output dist/index.js",
-    "lint": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,18 +11,15 @@
     "url": "git+ssh://git@github.com/booi-dev/booi-reactkit.git"
   },
   "keywords": [
-    "booi",
-    "reactkit"
+    "booi-reactkit"
   ],
   "author": "booi",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/booi-dev/booi-reactkit/issues"
   },
   "homepage": "https://github.com/booi-dev/booi-reactkit#readme",
   "devDependencies": {
-    "@changesets/cli": "^2.27.1",
-    "tsup": "^8.0.1",
     "typescript": "^5.3.3"
   }
 }
