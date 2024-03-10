@@ -1,5 +1,5 @@
 {
-  "name": "booi-reactkit",
+  "name": "@bo/reactkit",
   "version": "1.0.0",
   "description": "react kit from booi",
   "main": "dist/index.js",

@@ -4,7 +4,6 @@ interface Status {
   message: string;
   color: string;
 }
-
 export const StatusIndicator: React.FC<{ status: Status }> = ({ status }) => {
   return (
     <div>
